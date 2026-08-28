@@ -89,10 +89,6 @@ function main(config) {
     'IP-CIDR,192.168.0.0/16,DIRECT,no-resolve',
     'IP-CIDR,100.64.0.0/10,DIRECT,no-resolve',
 
-    // 个人指定强制代理
-    `DOMAIN-SUFFIX,jbbtoken.cn,${proxyTarget}`,
-    `DOMAIN-SUFFIX,lobehub.com,${proxyTarget}`,
-
     // 需代理域名集（域名级，零解析）
     `RULE-SET,claude,${proxyTarget}`,
     `RULE-SET,openai,${proxyTarget}`,
