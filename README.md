@@ -1,5 +1,5 @@
 # clash-verge-script
-Use this script in Clash Verge for global configuration (global extension script) to achieve the following:
+Use this script in Clash Verge for global configuration (global extension script) to achieve the following(Fake IP mode must be enabled):
 
 1. Direct connection for domain names within mainland China;
 2. Use proxy for domain names that require a proxy;
